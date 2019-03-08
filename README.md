@@ -11,20 +11,20 @@ There are three action the explorer can take:
  
  note: explorer will only move vertically or horizontally
  
-## How do I use the simulator
+# How do I use the simulator
 
-###Setting Up
+##Setting Up
 
 This simulator required to run in command line. There is three simple steps to get it running
 1. Run CommandPrompt
 2. Change the directory to the Mars_Explorer_Simulator folder
 3. Enter `java -jar MarsExplorer.jar
 
-###Using the Simulator
+##Using the Simulator
 
 The explorer can be land/move within the 5 by 5 area. that is within 0 to 4 of both X and Y dimension. 
 
-#####Landing
+###Landing
 
 The explorer can be landed anywhere within the 5 by 5 area, this is done by entering 
 
@@ -39,7 +39,7 @@ However, if entered `PLACE 50,50`, error message of `Invalid placement` will be 
 When a new explorer is landed, the old explorer will be abandoned and previous movement and his location will be lost.
 
 
-#####Maneuvering
+###Maneuvering
 
 The explorer can maneuver within the safe area in mars, this is done by entering 
 
@@ -66,7 +66,7 @@ However, if an invalid movement is to be entered. For example,
     
     Invalid Movement
     
-#####Requesting for rescue
+###Requesting for rescue
 
 The explorer can terminate his exploration by sending explorer's current coordinate. This is done by entering
 
@@ -79,7 +79,7 @@ output of
 where X and Y are the explorer's current location.
 
 --------------------
-##Test data
+#Test data
 
 A number of test have been conducted to ensure the simulator run smoothly and have expected output
 
