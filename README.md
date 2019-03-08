@@ -10,16 +10,22 @@ There are three action the explorer can take:
 - Requesting for rescue (Reporting) from current coordinate
  
  note: explorer will only move vertically or horizontally
+ 
 ## How do I use the simulator
+
 ###Setting Up
+
 This simulator required to run in command line. There is three simple steps to get it running
 1. Run CommandPrompt
 2. Change the directory to the Mars_Explorer_Simulator folder
 3. Enter `java -jar MarsExplorer.jar
 
 ###Using the Simulator
+
 The explorer can be land/move within the 5 by 5 area. that is within 0 to 4 of both X and Y dimension. 
+
 #####Landing
+
 The explorer can be landed anywhere within the 5 by 5 area, this is done by entering 
 
     PLACE X,Y 
@@ -59,7 +65,9 @@ However, if an invalid movement is to be entered. For example,
  is being requested, it will output 
     
     Invalid Movement
+    
 #####Requesting for rescue
+
 The explorer can terminate his exploration by sending explorer's current coordinate. This is done by entering
 
     REPORT
