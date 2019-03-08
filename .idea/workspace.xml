@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f1aae8d-daf0-4ad8-9e65-1f0afabf9d82" name="Default Changelist" comment="Preparing Readme, updating simulator and commandline prepare">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MarsExplorer.class" afterDir="false" />
+    <list default="true" id="6f1aae8d-daf0-4ad8-9e65-1f0afabf9d82" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/mars_exploration/MarsExplorer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mars_exploration/MarsExplorer.class" afterDir="false" />
@@ -18,25 +16,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MarsExplorer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="43" column="46" lean-forward="true" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
+            <state relative-caret-position="258">
+              <caret line="73" column="57" selection-start-line="73" selection-start-column="57" selection-end-line="73" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#879#1127#1" />
+                <element signature="e#2508#2635#1" />
+                <element signature="e#2816#2908#1" />
+                <element signature="e#3184#3245#1" />
+                <element signature="e#3182#3237#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="545">
-                <caret line="84" column="65" lean-forward="true" selection-start-line="84" selection-start-column="65" selection-end-line="84" selection-end-column="65" />
+              <first_editor relative-caret-position="596">
+                <caret line="87" column="57" lean-forward="true" selection-start-line="87" selection-start-column="57" selection-end-line="87" selection-end-column="57" />
               </first_editor>
               <second_editor />
             </state>
@@ -56,6 +57,7 @@
     <findStrings>
       <find>5</find>
       <find>commend</find>
+      <find>invalid</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -64,14 +66,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/MarsExplorer.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/MarsExplorer.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="width" value="1650" />
+    <option name="width" value="1294" />
     <option name="height" value="1057" />
   </component>
   <component name="ProjectView">
@@ -97,7 +99,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552005633938" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552008047059" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -152,12 +154,27 @@
       <workItem from="1551931188862" duration="12032000" />
       <workItem from="1551944327616" duration="26000" />
       <workItem from="1551954896990" duration="2109000" />
-      <workItem from="1551995425017" duration="10419000" />
+      <workItem from="1551995425017" duration="12520000" />
     </task>
+    <task id="LOCAL-00001" summary="Preparing Readme, updating simulator and prepare class to run from command line">
+      <created>1552006166285</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1552006166286</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Update - Allow Negative Movement as well as positive">
+      <created>1552007924294</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1552007924294</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26930000" />
+    <option name="totallyTimeSpent" value="29031000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -169,10 +186,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1650" height="1057" extended-state="0" />
+    <frame x="-7" y="0" width="1294" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13459119" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17341977" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -181,7 +198,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.23051947" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23051947" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3954984" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -191,7 +208,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32900432" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.21536796" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.21536796" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -208,7 +225,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Preparing Readme, updating simulator and commandline prepare" />
-    <option name="LAST_COMMIT_MESSAGE" value="Preparing Readme, updating simulator and commandline prepare" />
+    <MESSAGE value="Preparing Readme, updating simulator and prepare class to run from command line" />
+    <MESSAGE value="Update - Allow Negative Movement as well as positive" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update - Allow Negative Movement as well as positive" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/mars_exploration.iml">
@@ -241,24 +260,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="545">
-            <caret line="84" column="65" lean-forward="true" selection-start-line="84" selection-start-column="65" selection-end-line="84" selection-end-column="65" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/MarsExplorer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="73" column="57" selection-start-line="73" selection-start-column="57" selection-end-line="73" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2508#2635#1" />
+            <element signature="e#2816#2908#1" />
+            <element signature="e#3184#3245#1" />
+            <element signature="e#3182#3237#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MarsExplorer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="43" column="46" lean-forward="true" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#879#1127#1" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="596">
+            <caret line="87" column="57" lean-forward="true" selection-start-line="87" selection-start-column="57" selection-end-line="87" selection-end-column="57" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

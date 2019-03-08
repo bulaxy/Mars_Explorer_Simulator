@@ -71,7 +71,7 @@ public class MarsExplorer {
                             System.out.println();
 
                         } else {
-                            System.out.println("Invalid movement");
+                            System.out.println("Invalid Movement");
                         }
                     } else {
                         System.out.println("Explorer have not been placed");
