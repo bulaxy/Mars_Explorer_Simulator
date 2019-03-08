@@ -32,19 +32,36 @@ public class MarsExplorer {
                         int[] location = new int[]{movement.get(movement.size() - 1)[0], movement.get(movement.size() - 1)[1]};
 
                         //Check whether input is valid or off the table
-                        if (location[0] + X <= 4 && location[1] + Y <= 4 && X + Y != 0 && X>=0 && Y>=0) {
+                        if (location[0] + X <= 4 && location[1] + Y <= 4 && location[0] + X >= 0 && location[1] + Y >= 0) {
 
                             //move block by block until reaches inputted number and storing each movement
-                            for (int i = 0; i < X; i++) {
-                                location[0]++;
-                                int[] tempLocation = new int[]{location[0], location[1]};
-                                movement.add(tempLocation);
+                            if (X<0){
+                                for (int i = 0; i > X; i--) {
+                                    location[0]--;
+                                    int[] tempLocation = new int[]{location[0], location[1]};
+                                    movement.add(tempLocation);
+                                }
+                            }else if(X>0){
+                                for (int i = 0; i < X; i++) {
+                                    location[0]++;
+                                    int[] tempLocation = new int[]{location[0], location[1]};
+                                    movement.add(tempLocation);
+                                }
                             }
-                            for (int i = 0; i < Y; i++) {
-                                location[1]++;
-                                int[] tempLocation = new int[]{location[0], location[1]};
-                                movement.add(tempLocation);
+                            if (Y<0){
+                                for (int i = 0; i > Y; i--) {
+                                    location[1]--;
+                                    int[] tempLocation = new int[]{location[0], location[1]};
+                                    movement.add(tempLocation);
+                                }
+                            }else if(Y>0){
+                                for (int i = 0; i < Y; i++) {
+                                    location[1]++;
+                                    int[] tempLocation = new int[]{location[0], location[1]};
+                                    movement.add(tempLocation);
+                                }
                             }
+
 
                             //Output movement
                             System.out.print("M: ");
