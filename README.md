@@ -79,26 +79,5 @@ output of
 where X and Y are the explorer's current location.
 
 --------------------
-# Test data
- 
-A number of test have been conducted to ensure the simulator run smoothly and have expected output
-
-|Test Number| Test Data| Expected outcome | Pass/Fail| Comment|
-|:---------:|:--------:|:----------------:|:--------:|:------:|
-|1|`PLACE 3,3`|(Blank)|P||
-|2|`PLACE -2,-2`|`Invalid placement`|P||
-|3|`PLACE`|`Invalid Input`|P||
-|4|`PLACE 3`|`Invalid Input`|P||
-|5|`PLACE 3,,3`|`Invalid Input`|P||
-|6|`PLACE 3,3MOVE1,1`|`Invalid Input`|P||
-|7|`PLACE 3,3` enter `MOVE 1,1`|`M:(3,3) (4,3) (4,4)`|P||
-|8|`PLACE 3,3` enter `MOVE 1,1` enter `REPORT`|`M:(3,3) (4,3) (4,4)` followed by `P:(4,4)`|P||
-|9|`PLACE 3,3` enter `MOVE 5,5`|`Invalid Movement`|P||
-|10|`PlacE 1,2` |(Blank)|P|Simulator not case sensitive|
-|11|`3,3`|`Invalid Input`|P||
-|12|`MOVE 3,3`| `Explorer have not been placed`|P|Move will be ignore if explorer have not been placed|
-|13|`REPORT`|`Explorer have not been placed`|P||
-|14|`PLACE 2,2` enter `MOVE -2,2`|`M:(2,2) (1,2) (0,2) (0,3) (0,4)`|P||
-|15|`PLACE 2,2` enter `MOVE 2,-2`|`M:(2,2) (3,2) (4,2) (4,1) (4,0)`|P||
-|16|`PLACE 2,2` enter `MOVE -20,2`|`Invalid Movement`|P||
-|16|`Exit`|Program Exit|P||
+# Test case
+Test case have been added in TestCase.xlsx
