@@ -18,7 +18,7 @@ There are three action the explorer can take:
 This simulator required to run in command line. There is three simple steps to get it running
 1. Run CommandPrompt
 2. Change the directory to the Mars_Explorer_Simulator folder
-3. Enter `java -jar MarsExplorer.jar
+3. Enter `java -jar mars_exploration.jar`
 
 ## Using the Simulator
 
