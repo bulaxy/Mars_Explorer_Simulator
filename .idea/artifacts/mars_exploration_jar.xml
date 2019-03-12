@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="mars_exploration:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/mars_exploration_jar</output-path>
+    <root id="archive" name="mars_exploration.jar">
+      <element id="module-output" name="mars_exploration" />
+    </root>
+  </artifact>
+</component>

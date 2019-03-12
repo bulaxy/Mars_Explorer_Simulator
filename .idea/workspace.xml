@@ -7,13 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f1aae8d-daf0-4ad8-9e65-1f0afabf9d82" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MarsExplorer.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mars_exploration/MarsExplorer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mars_exploration/MarsExplorer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MarsExplorer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MarsExplorer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/manifest.txt" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+            <state relative-caret-position="824">
+              <caret line="100" column="71" lean-forward="true" selection-start-line="100" selection-start-column="71" selection-end-line="100" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -71,6 +65,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -109,7 +104,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552388688163" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552389024052" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -203,7 +198,35 @@
       <option name="project" value="LOCAL" />
       <updated>1552010193295</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Project Fixes - Reporting no longer Exit and Exit command added">
+      <created>1552388678058</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1552388678058</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Jar, ReadMe update on java's exit/reporting changes">
+      <created>1552388740399</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1552388740399</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Test Data Update">
+      <created>1552388849390</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1552388849390</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Re-upload jar File">
+      <created>1552389021217</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1552389021217</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -220,7 +243,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1294" height="1057" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17828201" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -266,7 +288,11 @@
     <MESSAGE value="Minor Typo and Test Data Update" />
     <MESSAGE value="Updating ReadMe and generating Jar for easier excution of the simulator" />
     <MESSAGE value="ReadMe Format Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="ReadMe Format Update" />
+    <MESSAGE value="Project Fixes - Reporting no longer Exit and Exit command added" />
+    <MESSAGE value="Jar, ReadMe update on java's exit/reporting changes" />
+    <MESSAGE value="Test Data Update" />
+    <MESSAGE value="Re-upload jar File" />
+    <option name="LAST_COMMIT_MESSAGE" value="Re-upload jar File" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -319,8 +345,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+        <state relative-caret-position="824">
+          <caret line="100" column="71" lean-forward="true" selection-start-line="100" selection-start-column="71" selection-end-line="100" selection-end-column="71" />
         </state>
       </provider>
     </entry>
